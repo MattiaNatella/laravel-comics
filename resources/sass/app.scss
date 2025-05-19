@@ -64,3 +64,11 @@ main {
         object-fit: cover; // cover invece di contain per riempire lo spazio
     }
 }
+
+.current-series {
+    position: absolute;
+    top: -26px;
+    left: 15%;
+    z-index: 2;
+
+}

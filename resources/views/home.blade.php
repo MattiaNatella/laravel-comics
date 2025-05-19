@@ -16,4 +16,12 @@
         @endforeach
     </div>
 
+    <x-tag>
+        <x-slot:button>Load More</x-slot>
+    </x-tag>
+    <x-tag>
+        <x-slot:button>Current Series</x-slot>
+            <x-slot:type>current-series</x-slot>
+    </x-tag>
+
 @endsection
