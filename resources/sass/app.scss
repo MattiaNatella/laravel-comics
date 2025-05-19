@@ -33,6 +33,7 @@ main {
 #jumbotron {
     position: relative;
     width: 100%;
+    max-height: 400px;
     background: url('../../public/img/jumbotron.jpg');
     background-size: cover;
     height: 350px;
