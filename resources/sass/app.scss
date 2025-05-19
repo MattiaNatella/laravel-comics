@@ -16,7 +16,14 @@
 }
 
 header {
-    height: 20px;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+main {
+    margin-top: 0;
+    background-color: #1C1C1C;
 }
 
 
@@ -24,6 +31,8 @@ header {
 
 
 #jumbotron {
+    position: relative;
+    width: 100%;
     background: url('../../public/img/jumbotron.jpg');
     background-size: cover;
     height: 350px;
@@ -43,4 +52,15 @@ header {
     padding: 10px;
     margin: auto;
     max-width: 70%;
+}
+
+.card {
+
+
+    img {
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-position: top;
+        object-fit: cover; // cover invece di contain per riempire lo spazio
+    }
 }
