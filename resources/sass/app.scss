@@ -6,3 +6,41 @@
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 20px;
+}
+
+
+// JUMBOTRON
+
+
+#jumbotron {
+    background: url('../../public/img/jumbotron.jpg');
+    background-size: cover;
+    height: 350px;
+    color: white;
+}
+
+.tag {
+    background-color: #0282F9;
+    display: inline-block;
+    position: relative;
+    top: 95%;
+}
+
+// CUSTOM CSS
+
+.cm-container {
+    padding: 10px;
+    margin: auto;
+    max-width: 70%;
+}
