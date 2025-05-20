@@ -85,6 +85,21 @@ main {
 
 }
 
+.menu {
+    li {
+        cursor: pointer;
+        transition: all 0.3s ease;
+        padding: 35px 0; // aumentiamo il padding verticale
+        border-bottom: 2px solid transparent;
+        margin-bottom: -2px; // compensiamo lo spessore del bordo
+
+        &:hover {
+            color: var(--bs-primary);
+            border-bottom-color: var(--bs-primary);
+        }
+    }
+}
+
 // FOOTER
 
 footer {
@@ -99,8 +114,33 @@ footer {
 #links {
     background-image: url('../../public/img/footer-bg.jpg');
     background-size: cover;
+    position: relative;
+    overflow: hidden;
+
+    .dc-logo {
+        position: absolute;
+        right: -100px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 500px;
+    }
 }
 
 #bottom-footer {
     background-color: #303030;
+    padding: 30px 0;
+
+    a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            color: var(--bs-primary);
+        }
+    }
+
+    h4 {
+        color: white;
+        margin-bottom: 20px;
+    }
 }
