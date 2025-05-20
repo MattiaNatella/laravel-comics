@@ -11,7 +11,7 @@
 <body>
 
     @include('partials.header')
-    <main class="position-relative">
+    <main class="position-relative pb-2">
         @yield('content')
     </main>
 

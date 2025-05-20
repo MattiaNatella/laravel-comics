@@ -7,7 +7,18 @@
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
 
+--root {
+    --bs-primary: #0282F9;
+    --bs-secondary: #1C1C1C;
+    --bs-success: #28a745;
+    --bs-info: #17a2b8;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #343a40;
+}
 
+;
 
 * {
     padding: 0;
@@ -62,7 +73,7 @@ main {
         width: 100%;
         aspect-ratio: 1/1;
         object-position: top;
-        object-fit: cover; // cover invece di contain per riempire lo spazio
+        object-fit: cover;
     }
 }
 
@@ -72,4 +83,24 @@ main {
     left: 15%;
     z-index: 2;
 
+}
+
+// FOOTER
+
+footer {
+
+    min-height: 100px;
+}
+
+#cta {
+    background-color: var(--bs-primary);
+}
+
+#links {
+    background-image: url('../../public/img/footer-bg.jpg');
+    background-size: cover;
+}
+
+#bottom-footer {
+    background-color: #303030;
 }
