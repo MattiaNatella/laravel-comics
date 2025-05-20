@@ -124,6 +124,22 @@ footer {
         transform: translateY(-50%);
         width: 500px;
     }
+
+    h4 {
+        color: white;
+        margin-bottom: 1rem;
+    }
+
+    ul {
+        li {
+            a {
+                color: #959595;
+                text-decoration: none;
+                pointer-events: none; // rimuove l'effetto link
+                cursor: default; // rimuove il cursore pointer
+            }
+        }
+    }
 }
 
 #bottom-footer {
